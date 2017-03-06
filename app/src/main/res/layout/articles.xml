@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+
+        android:id="@+id/crazyCloset"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Should I come out of the crazy closet?"
+        android:textColor="#33b5e5"/>
+
+    <Button
+
+        android:id="@+id/socialSecurity"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="social security disability and medicare"
+        android:textColor="#33b5e5"/>
+
+    <Button
+
+        android:id="@+id/notSoBad"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="it's not so bad"
+        android:textColor="#33b5e5"/>
+
+    <Button
+
+        android:id="@+id/medical"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="medication compliance"
+        android:textColor="#33b5e5"/>
+</LinearLayout>

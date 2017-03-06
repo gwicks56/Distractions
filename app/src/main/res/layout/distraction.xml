@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonCat"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Funny Cat Videos"
+        android:textColor="#33b5e5"/>
+
+    <Button
+        android:id="@+id/buttonDog"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Dog Pics"
+        android:textColor="#33b5e5"/>
+
+    <Button
+        android:id="@+id/buttonMusic"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:text="Beatles Music"
+        android:textColor="#33b5e5"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+
+
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:layout_width="191dp"
+        android:layout_height="259dp"
+        app:srcCompat="@drawable/closet_door"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.91"
+
+        android:linksClickable="true"
+        android:autoLink="web"
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+
+
+        android:scrollbars="vertical"
+        android:text="\tBecause of the strong stigma associated with people with mental illnesses but especially schizophrenia, it can be difficult to decide whether to come out of the crazy closet. To borrow a term from the LGBTQ community, you’re never sure how family, friends, or coworkers will react when you tell them you have schizophrenia.\n\n\tFrom my personal experience it is never good to tell complete strangers or coworkers about it and it can actually increase the frequency and intensity of paranoid delusions in the future. You’ll never know when something from your past will come back to haunt you because many schizophrenics have problems with creating false memories.\n\n\tI would recommend telling close family and friends so you can create a support network that you can always fall back on. You may need help dealing with daily tasks, grocery shopping, or handling finances or even driving which can be dangerous while actively hallucinating.\n\n\tI was very open while in college about my illness but I found that some people couldn’t take the vivid descriptions I’d give and felt uncomfortable enough to make me stop talking about them.\n\nInstead of saying every unfiltered thing that pops in your mind, try to select how you interact with neurotypicals (normal people) by talking about other things and asking questions about their life. It’s hard to make friends in general but it’s even harder when all you talk about is your schizophrenia. Find common ground and stick to it.\n\nIf you’d really like to share more traumatizing experiences try therapy or a mental health support group like Hearing Voices or NAMI. We’ve included links in the app to get you in touch with these groups which provide a safe space and a sense of community to a very isolating disease.\n\nIf you’re still uncomfortable talking about your illness you can always turn to journaling which provides a creative outlet as well as a very good distraction if you’re actively hallucinating. Combating what the voices are telling you or ranting about them can effectively diminish them or turn them on the head and make them more hospitable, no pun intended.\n\nYou can always try meetups as well and in my experience I’ve felt a lot less paranoid sharing with people with a scientific background because they see it as a medical brain disorder not something you’ve brought upon yourself or can control without intervention like medicine, meditation, or therapy.\n\nHere’s a funny video by someone making light of the serious concerns people experience when sharing details of their mental illness with doctors, therapists, healers, and friends:
+https://www.youtube.com/watch?v=RDofIVRYahY&amp;t=1s"/>
+</LinearLayout>
+
+    </ScrollView>

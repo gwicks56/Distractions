@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="218dp"
+        app:srcCompat="@drawable/lucy_shirt_png"/>
+
+    <TextView
+        android:id="@+id/jobLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:linksClickable="true"
+        android:autoLink="web"
+
+        android:scrollbars="vertical"
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Rover.com - You can sign up to walk people’s dogs or pet sit in their or your own house and get paid automatically. All you need is phone and internet.\n\n
+
+Fiverr.com - Sign up to do art, music, writing, or other odd creative jobs starting at 5 dollars a piece but customizable to charge more for more features or detail.\n\n
+
+Etsy.com - The painter, knitter, or craft person’s dream selling website that pays to be original and creative.\n\n
+
+Usertesting.com - This website takes video of your computer screen as you talk through user tests of prototype websites in development helping make websites more user friendly. They pay 10 dollars per test.\n\n
+
+Zazzle.com - Make t shirt designs or mugs, canvas, prints of logos or artwork to sell online. No money needed to create or post designs."/>
+</LinearLayout>

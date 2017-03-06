@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="203dp"
+        app:srcCompat="@drawable/resources_pic"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+
+        android:autoLink="web"
+
+
+        android:linksClickable="true"
+
+
+        android:scrollbars="vertical"
+
+
+        android:text="NAMI National Alliance on Mental Illness\n
+http://www.nami.org/Learn-More/Mental-Health-Conditions/Schizophrenia\n\nCan post or read articles on schizophrenia and other mental health conditions.\n
+www.medium.com\n\nHearing Voices Network\n
+http://www.hearing-voices.org/\n\nSchizophrenia Support Groups on Meetup\n
+https://www.meetup.com/topics/schizophrenia/\n\nPsychCentral Twitter Feed: Blog and Article Links\n
+https://twitter.com/PsychCentral\n
+https://psychcentral.com/\n\nActive Minds Twitter Supports Campus Mental Health\n
+https://twitter.com/active_minds\n
+http://www.activeminds.org/\n"
+
+
+
+
+        />
+</LinearLayout>

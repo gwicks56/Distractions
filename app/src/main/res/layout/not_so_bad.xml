@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/its_not_so_bad"/>
+
+    <TextView
+        android:id="@+id/notSoBad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+
+        android:autoLink="web"
+
+
+        android:linksClickable="true"
+
+
+        android:scrollbars="vertical"
+
+
+        android:text="\t\tLike the great philosopher Dido says, “It’s not so bad. It’s not so bad.”\n\nWe all know there’s a downside to schizophrenia and other mental illnesses especially when they’re comorbid. Many schizophrenics suffer from PTSD (Post Traumatic Stress Disorder), anxiety, and depression and it may feel like these are harder to treat than the so called positive symptoms of hallucinations and delusions.\n\nBut even on your hardest day I want you to remember that it’s not so bad. Schizophrenia is a waxing and waning disorder and even if it doesn’t feel like it now it will get better. Don’t be afraid to reach out for help or try a new medication but remember that you know your body better than your doctor so listen to it and keep a close watch on symptoms and triggers as well as side effects.\n\nIt could be worse. You could have a neurodegenerative illness like Parkinson’s, dementia, or Alzheimer’s that leads to a total dysfunction of body and mind. You may shake or have tremors but know that your neurons aren’t dying. You just have a chemical imbalance in your mind that can be corrected with the right treatment and therapy.\n\nDon’t be afraid of the hospital. I know they can treat you bad but sometimes you’re there for your own safety. If you respect others, they tend to respect you. Be honest in your communications to your health team and actively bring up concerns about drugs or other avenues that are meant to help you return to a normal life.\n\nYes, your mind may be unhinged but that’s not so bad, is it? You can create tangents to things other people would find impossible. You can participate in focus groups, clinical trials, and research to actively make a difference as a schizophrenic consultant. You can become a peer support specialist to help others in recovery, something I’m sure you know very well.\n\nWhen I went crazy in the beginning, I started improvising on the piano and now I’m a full fledged piano teacher and songwriter. I got 10th one year in the Guitar Center Singer Songwriter Competition. I’ve participated in Caltech Toastmasters and won the Manhattan Monologue Slam in 2009. I’m not afraid of public speaking or speaking out on behalf of other people with mental disorders.\n\nMany people with schizophrenia can still lead fulfilling ultra creative lives that make a difference to everyone around them. For example, Elyn Saks became a professor despite having schizophrenia and later gave a great TED talk and won the MacArthur Genius Award in 2009. You can watch her talk here: \n\nhttps://www.ted.com/talks/elyn_saks_seeing_mental_illness\n\nJohn Nash won a Nobel Prize in mathematics and manages his illness without medication. Let these people inspire you to greater heights and create goals on a daily, weekly, monthly, and yearly basis. You can and will make a difference. I know it because you’re here and we’re all here to make the schizophrenic world a better place."
+
+        />
+</LinearLayout>
+    </ScrollView>

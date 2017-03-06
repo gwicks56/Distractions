@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_gravity="center"
+        android:layout_width="191dp"
+        android:layout_height="259dp"
+        app:srcCompat="@drawable/pil_bottle"/>
+
+    <TextView
+
+
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+
+
+
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I know that medication has bad side effects that may lead you to need more medication just for the side effects but their efficacy in fighting schizophrenia is well documented. Before Thorazine was discovered to help psychosis by accident in 1952 there wasn’t a medication available for schizophrenics to control their positive symptoms at all.\n\nBe happy that there are now a host of medications available including newer second generation antipsychotics and benzodiazepines that help with hallucinations and delusions with a lesser likelihood of causing permanent movement disorders like tardive dyskinesia.\n\nIf you don’t want to take medication, that is your choice and I respect that but be mindful that just taking a few pills a day can make most days much more manageable. However, remember that you’ll need much more coping mechanisms to deal with symptoms not under control from medication.\n\nStates vary in their laws but most have a mandatory 72 hour hold for involuntary hospitalization where they can hold you for three days if it’s proven that you’re a danger to yourself, others or gravely disabled. Gravely disabled is broad but basically means you can’t groom, eat, or otherwise take care of yourself.\n\nMuch psychological research shows that if you tell a mental health facility that you’re currently hearing voices they will hospitalize you right away even if you don’t have schizophrenia and are a psychological grad student who is lying to study the pitfalls of the mental health system.\n\nIn the hospital, you can refuse medication but they may force it upon you so be aware that by taking your daily meds and seeing a psychiatrist on an outpatient basis you can avoid a costly and/or traumatic inpatient hospitalization.\n\nMedication has led to a humongous decrease of positive symptoms for me and made pain much more manageable on a day to day basis. I’d much rather be tired than hearing voices constantly but that is a choice everyone has to make for themselves. \n\nAlso realize that you may need to try 4 o 5 different medications before finding the one that’s right for you so be patient and coordinate with your doctor or psychiatrist. Like I said in the hospital: I’m impatient now, but I’d rather be outpatient.
+"/>
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/medicare_card"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+
+
+        android:text="\t\tIt’s really hard to hold down a full time job as a schizophrenic. I should know. During one of my remissions I became a Medicare Sales Agent and ACA agent during open enrollment. During training we only worked 40 hours a week but I soon found myself working a lot of overtime.\n\nIn 11 days in a row, I’d racked up 102.7 hours during the height of the season. I’d hear voices whenever I was in the lunchroom and thought people were talking about me and leaving because they were scared of me.\n\nWhen my disability review came up, I just quit my job but I lost my Social Security disability anyway because I’d been working full time and the psychologist said that despite having hallucinations and delusions I could still operate a microwave, stove, and oven.\n\nFor many people with schizophrenia, Disability is their lifeboat. It keeps you afloat while your ship is sinking but many people struggle to get on it, don’t know about it, or get kicked off of it for working too much.\n\nUnlike certain disorders though, there is hope. Schizophrenia that is well documented by hospitalizations can easily qualify as a disability without a lawyer. You will need help from a doctor, therapist, or other mental health advocate like social workers but it’s not unusual to get disability after applying the first time since it is a lifelong illness.\n\nDon’t contact a disability lawyer right away since they take a huge chunk of your payments for their services but rather make certain you completely fill out the paperwork and get hospital records as well as reviews by psychiatrists. If you get rejected you may want to consult a lawyer.\n\nAfter 2 years on Disability you qualify for Medicare which is usually reserved for seniors and some of the most affordable and best health insurance plans out there. I’d recommend signing up for your state’s Medicaid before doing anything especially while you’re waiting for Medicare since they will complement each other eventually and prescriptions and doctor visits let alone hospitalizations can rack up quite the medical debt.\n\nYou always want to be prepared and if you have Medicaid and Medicare you may qualify for the State Medicare Savings Program and Low Income Subsidy which pays your insurance premiums and brings the cost of prescriptions down to as low as 1.20 per prescription. Medicare Advantage programs are even more affordable, offer more coverage, and usually include dental, vision, or fitness programs as free or low cost perks.\n\nBe aware that Social Security has something called substantial gainful activity which is the maximum you can earn while collecting and for 2017 that is 1170 per month. You do have a trial work period of 9 months but with side effects from medications like hypersomnia, fatigue, and cognitive impairments it may not be worth it to work full time. Work stress can definitely trigger symptoms so if you are returning to work make sure you make your health a priority. \n\nI’ve included on the homepage links to fun easy cash jobs you can do to supplement your Disability income and you can always search craigslist or neighborhood websites like Nextdoor for odd jobs that don’t take a lot of time or effort."/>
+
+
+</LinearLayout>
+    </ScrollView>

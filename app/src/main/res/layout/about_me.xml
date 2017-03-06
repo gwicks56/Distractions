@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="181dp"
+            android:scrollbars="vertical"
+            app:srcCompat="@drawable/burning_man"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.97"
+
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+
+            android:autoLink="web"
+
+
+            android:linksClickable="true"
+
+
+            android:scrollbars="vertical"
+            android:text="\t Hi, my name is Po Ku and I made this app to help people just like me. I’ve been living with schizophrenia since 2008 and have found various coping mechanisms and tricks to help me deal with it. Some may be unconventional but I want you to keep an open mind.\n\n
+            \t Some people with schizophrenia only hear voices but I hallucinate in every possible sense of the word and it has been quite disabling at times. There are many points to this app but the main one is to make people’s lives better who may be suffering or have suffered from psychosis, delusions, and paranoia.\n\n
+               \t A key coping mechanism is distraction so we have a distract me button that will take you to videos, images, gifs, and music so you’re not stuck listening to those pesky voices. I always encourage people to share their stories with each other and others in general to help fight the stigma associated with this illness and you can find a great forum on Twitter or Medium.\n\n
+
+    \t If you’d like stupid puns you can follow me on Twitter @PoKuPuns. I don’t let the schizophrenia bring me down or define me but I do use it to be even more creative than when I was sane. I’m a songwriter and you can find some of my music on poku.bandcamp.com. I also share and sell artwork on www.zazzle.com/pokumon and www.ArtPal.com/pokumon.\n\n
+    \t I’m currently working on writing short stories including children’s books and tv and movie scripts. My main project right now is a semi-autobiographical funny fantasy superhero movie called Yoga Po. It’s based on yogamastics which is a sport I invented while psychotic that combines yoga, gymnastics, and martial arts (I actually don’t know how to fight except in movies). The main plot revolves around using my schizophenia to prevent the end of the world and also a cute love story based on fact and fiction. You can read more about yogamastics here: https://medium.com/@PoKuPuns/my-psychotic-sport-yogamastics-120963c57336#.mjhzdcxcy
+    "/>
+
+    </LinearLayout>
+</ScrollView>
